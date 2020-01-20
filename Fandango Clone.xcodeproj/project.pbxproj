@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CE37B270A3A4D607FAFB5DC /* Pods_Fandango_Clone_Fandango_CloneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70A77DAAF2A098BEDC5D9C0E /* Pods_Fandango_Clone_Fandango_CloneUITests.framework */; };
+		24591DB023D6460900075367 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24591DAF23D6460900075367 /* MoviesViewController.swift */; };
+		2471EC5123D6542D0081D40F /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2471EC5023D6542D0081D40F /* MovieCell.swift */; };
 		24B7901723D6420F00570D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901623D6420F00570D7B /* AppDelegate.swift */; };
 		24B7901923D6420F00570D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901823D6420F00570D7B /* SceneDelegate.swift */; };
-		24B7901B23D6420F00570D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901A23D6420F00570D7B /* ViewController.swift */; };
 		24B7901E23D6420F00570D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7901C23D6420F00570D7B /* Main.storyboard */; };
 		24B7902023D6421000570D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7901F23D6421000570D7B /* Assets.xcassets */; };
 		24B7902323D6421000570D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7902123D6421000570D7B /* LaunchScreen.storyboard */; };
 		24B7902E23D6421000570D7B /* Fandango_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7902D23D6421000570D7B /* Fandango_CloneTests.swift */; };
 		24B7903923D6421000570D7B /* Fandango_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7903823D6421000570D7B /* Fandango_CloneUITests.swift */; };
+		5877DDA3D96F4446C7BDB10A /* Pods_Fandango_CloneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191C4D41FEE4D7F3A7EB69FE /* Pods_Fandango_CloneTests.framework */; };
+		84F4EDB1E74001A411AA6EC3 /* Pods_Fandango_Clone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16B3F39EAAD034B28D6D455 /* Pods_Fandango_Clone.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DADA4344BE910788E31DFBE /* Pods-Fandango Clone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango Clone.debug.xcconfig"; path = "Target Support Files/Pods-Fandango Clone/Pods-Fandango Clone.debug.xcconfig"; sourceTree = "<group>"; };
+		191C4D41FEE4D7F3A7EB69FE /* Pods_Fandango_CloneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fandango_CloneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24591DAF23D6460900075367 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		2471EC5023D6542D0081D40F /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		24B7901323D6420F00570D7B /* Fandango Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fandango Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B7901623D6420F00570D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24B7901823D6420F00570D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		24B7901A23D6420F00570D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		24B7901D23D6420F00570D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B7901F23D6421000570D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B7902223D6421000570D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		24B7903423D6421000570D7B /* Fandango CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fandango CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B7903823D6421000570D7B /* Fandango_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fandango_CloneUITests.swift; sourceTree = "<group>"; };
 		24B7903A23D6421000570D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51868A2F75A81616B8449892 /* Pods-Fandango Clone-Fandango CloneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango Clone-Fandango CloneUITests.debug.xcconfig"; path = "Target Support Files/Pods-Fandango Clone-Fandango CloneUITests/Pods-Fandango Clone-Fandango CloneUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		70A77DAAF2A098BEDC5D9C0E /* Pods_Fandango_Clone_Fandango_CloneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fandango_Clone_Fandango_CloneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		951075DAAC6081F7C525F14F /* Pods-Fandango CloneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango CloneTests.release.xcconfig"; path = "Target Support Files/Pods-Fandango CloneTests/Pods-Fandango CloneTests.release.xcconfig"; sourceTree = "<group>"; };
+		A2E41C4277D00150A8C11D07 /* Pods-Fandango Clone-Fandango CloneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango Clone-Fandango CloneUITests.release.xcconfig"; path = "Target Support Files/Pods-Fandango Clone-Fandango CloneUITests/Pods-Fandango Clone-Fandango CloneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B9E948977BBF6055A57FE8CB /* Pods-Fandango Clone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango Clone.release.xcconfig"; path = "Target Support Files/Pods-Fandango Clone/Pods-Fandango Clone.release.xcconfig"; sourceTree = "<group>"; };
+		D16B3F39EAAD034B28D6D455 /* Pods_Fandango_Clone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fandango_Clone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4F20BF3CC7B3F4D5D26256 /* Pods-Fandango CloneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fandango CloneTests.debug.xcconfig"; path = "Target Support Files/Pods-Fandango CloneTests/Pods-Fandango CloneTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84F4EDB1E74001A411AA6EC3 /* Pods_Fandango_Clone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5877DDA3D96F4446C7BDB10A /* Pods_Fandango_CloneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CE37B270A3A4D607FAFB5DC /* Pods_Fandango_Clone_Fandango_CloneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				24B7902C23D6421000570D7B /* Fandango CloneTests */,
 				24B7903723D6421000570D7B /* Fandango CloneUITests */,
 				24B7901423D6420F00570D7B /* Products */,
+				5C9112CBB9C5F0F26610DC7B /* Pods */,
+				EB39E7EC5BDB09EA3CCC2E07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +118,10 @@
 		24B7901523D6420F00570D7B /* Fandango Clone */ = {
 			isa = PBXGroup;
 			children = (
+				2471EC5023D6542D0081D40F /* MovieCell.swift */,
+				24591DAF23D6460900075367 /* MoviesViewController.swift */,
 				24B7901623D6420F00570D7B /* AppDelegate.swift */,
 				24B7901823D6420F00570D7B /* SceneDelegate.swift */,
-				24B7901A23D6420F00570D7B /* ViewController.swift */,
 				24B7901C23D6420F00570D7B /* Main.storyboard */,
 				24B7901F23D6421000570D7B /* Assets.xcassets */,
 				24B7902123D6421000570D7B /* LaunchScreen.storyboard */,
@@ -128,6 +148,30 @@
 			path = "Fandango CloneUITests";
 			sourceTree = "<group>";
 		};
+		5C9112CBB9C5F0F26610DC7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DADA4344BE910788E31DFBE /* Pods-Fandango Clone.debug.xcconfig */,
+				B9E948977BBF6055A57FE8CB /* Pods-Fandango Clone.release.xcconfig */,
+				51868A2F75A81616B8449892 /* Pods-Fandango Clone-Fandango CloneUITests.debug.xcconfig */,
+				A2E41C4277D00150A8C11D07 /* Pods-Fandango Clone-Fandango CloneUITests.release.xcconfig */,
+				EB4F20BF3CC7B3F4D5D26256 /* Pods-Fandango CloneTests.debug.xcconfig */,
+				951075DAAC6081F7C525F14F /* Pods-Fandango CloneTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EB39E7EC5BDB09EA3CCC2E07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16B3F39EAAD034B28D6D455 /* Pods_Fandango_Clone.framework */,
+				70A77DAAF2A098BEDC5D9C0E /* Pods_Fandango_Clone_Fandango_CloneUITests.framework */,
+				191C4D41FEE4D7F3A7EB69FE /* Pods_Fandango_CloneTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B7903D23D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango Clone" */;
 			buildPhases = (
+				CDB2919EE21E2FF036CA48B7 /* [CP] Check Pods Manifest.lock */,
 				24B7900F23D6420F00570D7B /* Sources */,
 				24B7901023D6420F00570D7B /* Frameworks */,
 				24B7901123D6420F00570D7B /* Resources */,
+				643A289F8F12BC058AB8C54F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B7904023D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneTests" */;
 			buildPhases = (
+				E1F6C18CADB4942F5955E33F /* [CP] Check Pods Manifest.lock */,
 				24B7902523D6421000570D7B /* Sources */,
 				24B7902623D6421000570D7B /* Frameworks */,
 				24B7902723D6421000570D7B /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B7904323D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneUITests" */;
 			buildPhases = (
+				096C8CFF18D6F79DC78352B6 /* [CP] Check Pods Manifest.lock */,
 				24B7903023D6421000570D7B /* Sources */,
 				24B7903123D6421000570D7B /* Frameworks */,
 				24B7903223D6421000570D7B /* Resources */,
+				A3A683AD40FDA30BB8AEFB72 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +303,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		096C8CFF18D6F79DC78352B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fandango Clone-Fandango CloneUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		643A289F8F12BC058AB8C54F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone/Pods-Fandango Clone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone/Pods-Fandango Clone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone/Pods-Fandango Clone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A683AD40FDA30BB8AEFB72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone-Fandango CloneUITests/Pods-Fandango Clone-Fandango CloneUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone-Fandango CloneUITests/Pods-Fandango Clone-Fandango CloneUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fandango Clone-Fandango CloneUITests/Pods-Fandango Clone-Fandango CloneUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDB2919EE21E2FF036CA48B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fandango Clone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F6C18CADB4942F5955E33F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fandango CloneTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24B7900F23D6420F00570D7B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B7901B23D6420F00570D7B /* ViewController.swift in Sources */,
 				24B7901723D6420F00570D7B /* AppDelegate.swift in Sources */,
 				24B7901923D6420F00570D7B /* SceneDelegate.swift in Sources */,
+				2471EC5123D6542D0081D40F /* MovieCell.swift in Sources */,
+				24591DB023D6460900075367 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +585,7 @@
 		};
 		24B7903E23D6421000570D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DADA4344BE910788E31DFBE /* Pods-Fandango Clone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +604,7 @@
 		};
 		24B7903F23D6421000570D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9E948977BBF6055A57FE8CB /* Pods-Fandango Clone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +623,7 @@
 		};
 		24B7904123D6421000570D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB4F20BF3CC7B3F4D5D26256 /* Pods-Fandango CloneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +646,7 @@
 		};
 		24B7904223D6421000570D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951075DAAC6081F7C525F14F /* Pods-Fandango CloneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +669,7 @@
 		};
 		24B7904423D6421000570D7B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51868A2F75A81616B8449892 /* Pods-Fandango Clone-Fandango CloneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +690,7 @@
 		};
 		24B7904523D6421000570D7B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2E41C4277D00150A8C11D07 /* Pods-Fandango Clone-Fandango CloneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
