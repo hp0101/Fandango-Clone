@@ -21,7 +21,7 @@ Fandangon Clone App is an app that allows users to browse movies from the [The M
 
 ### App Walkthough GIF
 
-<img src="https://imgur.com/iZxVDue" width=250><br>
+<img src="https://i.imgur.com/QaVKxGU.gifv" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
