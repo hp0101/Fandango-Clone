@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24B7901723D6420F00570D7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901623D6420F00570D7B /* AppDelegate.swift */; };
+		24B7901923D6420F00570D7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901823D6420F00570D7B /* SceneDelegate.swift */; };
+		24B7901B23D6420F00570D7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7901A23D6420F00570D7B /* ViewController.swift */; };
+		24B7901E23D6420F00570D7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7901C23D6420F00570D7B /* Main.storyboard */; };
+		24B7902023D6421000570D7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B7901F23D6421000570D7B /* Assets.xcassets */; };
+		24B7902323D6421000570D7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B7902123D6421000570D7B /* LaunchScreen.storyboard */; };
+		24B7902E23D6421000570D7B /* Fandango_CloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7902D23D6421000570D7B /* Fandango_CloneTests.swift */; };
+		24B7903923D6421000570D7B /* Fandango_CloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B7903823D6421000570D7B /* Fandango_CloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24B7902A23D6421000570D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B7900B23D6420F00570D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B7901223D6420F00570D7B;
+			remoteInfo = "Fandango Clone";
+		};
+		24B7903523D6421000570D7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 24B7900B23D6420F00570D7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24B7901223D6420F00570D7B;
+			remoteInfo = "Fandango Clone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24B7901323D6420F00570D7B /* Fandango Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fandango Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B7901623D6420F00570D7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		24B7901823D6420F00570D7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		24B7901A23D6420F00570D7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B7901D23D6420F00570D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24B7901F23D6421000570D7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		24B7902223D6421000570D7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		24B7902423D6421000570D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B7902923D6421000570D7B /* Fandango CloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fandango CloneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B7902D23D6421000570D7B /* Fandango_CloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fandango_CloneTests.swift; sourceTree = "<group>"; };
+		24B7902F23D6421000570D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24B7903423D6421000570D7B /* Fandango CloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fandango CloneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		24B7903823D6421000570D7B /* Fandango_CloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fandango_CloneUITests.swift; sourceTree = "<group>"; };
+		24B7903A23D6421000570D7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24B7901023D6420F00570D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7902623D6421000570D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7903123D6421000570D7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24B7900A23D6420F00570D7B = {
+			isa = PBXGroup;
+			children = (
+				24B7901523D6420F00570D7B /* Fandango Clone */,
+				24B7902C23D6421000570D7B /* Fandango CloneTests */,
+				24B7903723D6421000570D7B /* Fandango CloneUITests */,
+				24B7901423D6420F00570D7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24B7901423D6420F00570D7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24B7901323D6420F00570D7B /* Fandango Clone.app */,
+				24B7902923D6421000570D7B /* Fandango CloneTests.xctest */,
+				24B7903423D6421000570D7B /* Fandango CloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24B7901523D6420F00570D7B /* Fandango Clone */ = {
+			isa = PBXGroup;
+			children = (
+				24B7901623D6420F00570D7B /* AppDelegate.swift */,
+				24B7901823D6420F00570D7B /* SceneDelegate.swift */,
+				24B7901A23D6420F00570D7B /* ViewController.swift */,
+				24B7901C23D6420F00570D7B /* Main.storyboard */,
+				24B7901F23D6421000570D7B /* Assets.xcassets */,
+				24B7902123D6421000570D7B /* LaunchScreen.storyboard */,
+				24B7902423D6421000570D7B /* Info.plist */,
+			);
+			path = "Fandango Clone";
+			sourceTree = "<group>";
+		};
+		24B7902C23D6421000570D7B /* Fandango CloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				24B7902D23D6421000570D7B /* Fandango_CloneTests.swift */,
+				24B7902F23D6421000570D7B /* Info.plist */,
+			);
+			path = "Fandango CloneTests";
+			sourceTree = "<group>";
+		};
+		24B7903723D6421000570D7B /* Fandango CloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24B7903823D6421000570D7B /* Fandango_CloneUITests.swift */,
+				24B7903A23D6421000570D7B /* Info.plist */,
+			);
+			path = "Fandango CloneUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24B7901223D6420F00570D7B /* Fandango Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B7903D23D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango Clone" */;
+			buildPhases = (
+				24B7900F23D6420F00570D7B /* Sources */,
+				24B7901023D6420F00570D7B /* Frameworks */,
+				24B7901123D6420F00570D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fandango Clone";
+			productName = "Fandango Clone";
+			productReference = 24B7901323D6420F00570D7B /* Fandango Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24B7902823D6421000570D7B /* Fandango CloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B7904023D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneTests" */;
+			buildPhases = (
+				24B7902523D6421000570D7B /* Sources */,
+				24B7902623D6421000570D7B /* Frameworks */,
+				24B7902723D6421000570D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B7902B23D6421000570D7B /* PBXTargetDependency */,
+			);
+			name = "Fandango CloneTests";
+			productName = "Fandango CloneTests";
+			productReference = 24B7902923D6421000570D7B /* Fandango CloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		24B7903323D6421000570D7B /* Fandango CloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24B7904323D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneUITests" */;
+			buildPhases = (
+				24B7903023D6421000570D7B /* Sources */,
+				24B7903123D6421000570D7B /* Frameworks */,
+				24B7903223D6421000570D7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24B7903623D6421000570D7B /* PBXTargetDependency */,
+			);
+			name = "Fandango CloneUITests";
+			productName = "Fandango CloneUITests";
+			productReference = 24B7903423D6421000570D7B /* Fandango CloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		24B7900B23D6420F00570D7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Hung Phan";
+				TargetAttributes = {
+					24B7901223D6420F00570D7B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					24B7902823D6421000570D7B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24B7901223D6420F00570D7B;
+					};
+					24B7903323D6421000570D7B = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24B7901223D6420F00570D7B;
+					};
+				};
+			};
+			buildConfigurationList = 24B7900E23D6420F00570D7B /* Build configuration list for PBXProject "Fandango Clone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 24B7900A23D6420F00570D7B;
+			productRefGroup = 24B7901423D6420F00570D7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24B7901223D6420F00570D7B /* Fandango Clone */,
+				24B7902823D6421000570D7B /* Fandango CloneTests */,
+				24B7903323D6421000570D7B /* Fandango CloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24B7901123D6420F00570D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7902323D6421000570D7B /* LaunchScreen.storyboard in Resources */,
+				24B7902023D6421000570D7B /* Assets.xcassets in Resources */,
+				24B7901E23D6420F00570D7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7902723D6421000570D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7903223D6421000570D7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24B7900F23D6420F00570D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7901B23D6420F00570D7B /* ViewController.swift in Sources */,
+				24B7901723D6420F00570D7B /* AppDelegate.swift in Sources */,
+				24B7901923D6420F00570D7B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7902523D6421000570D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7902E23D6421000570D7B /* Fandango_CloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24B7903023D6421000570D7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24B7903923D6421000570D7B /* Fandango_CloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24B7902B23D6421000570D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B7901223D6420F00570D7B /* Fandango Clone */;
+			targetProxy = 24B7902A23D6421000570D7B /* PBXContainerItemProxy */;
+		};
+		24B7903623D6421000570D7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24B7901223D6420F00570D7B /* Fandango Clone */;
+			targetProxy = 24B7903523D6421000570D7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24B7901C23D6420F00570D7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B7901D23D6420F00570D7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		24B7902123D6421000570D7B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24B7902223D6421000570D7B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24B7903B23D6421000570D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		24B7903C23D6421000570D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24B7903E23D6421000570D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		24B7903F23D6421000570D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango Clone/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		24B7904123D6421000570D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango CloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fandango Clone.app/Fandango Clone";
+			};
+			name = Debug;
+		};
+		24B7904223D6421000570D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango CloneTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-CloneTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fandango Clone.app/Fandango Clone";
+			};
+			name = Release;
+		};
+		24B7904423D6421000570D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fandango Clone";
+			};
+			name = Debug;
+		};
+		24B7904523D6421000570D7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X86U5N326S;
+				INFOPLIST_FILE = "Fandango CloneUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hpp.Fandango-CloneUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fandango Clone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24B7900E23D6420F00570D7B /* Build configuration list for PBXProject "Fandango Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7903B23D6421000570D7B /* Debug */,
+				24B7903C23D6421000570D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B7903D23D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7903E23D6421000570D7B /* Debug */,
+				24B7903F23D6421000570D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B7904023D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7904123D6421000570D7B /* Debug */,
+				24B7904223D6421000570D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24B7904323D6421000570D7B /* Build configuration list for PBXNativeTarget "Fandango CloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24B7904423D6421000570D7B /* Debug */,
+				24B7904523D6421000570D7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 24B7900B23D6420F00570D7B /* Project object */;
+}
