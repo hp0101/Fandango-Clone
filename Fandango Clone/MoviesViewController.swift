@@ -31,7 +31,16 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         
         cell.imageCell.af_setImage(withURL: posterUrl)
         
+        
         return cell
+    }
+    
+    // deselect selected UITableView cell
+    override func viewWillAppear(_ animated: Bool) {
+        if let index = self.tableView.indexPathForSelectedRow {
+            self.tableView.deselectRow(at: index, animated: false)
+            
+        }
     }
     
 

@@ -18,6 +18,10 @@ class MovieDetailsViewController: UIViewController {
     
     @IBOutlet weak var overviewLabel: UILabel!
     
+    @IBOutlet weak var releaseDate: UILabel!
+    
+    @IBOutlet weak var ratingAvg: UILabel!
+    
     var movie : [String:Any]!
     
     override func viewWillAppear(_ animated: Bool) {
@@ -39,12 +43,21 @@ class MovieDetailsViewController: UIViewController {
         
     }
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        posterView.layer.masksToBounds = true
+        posterView.layer.borderWidth = 1.5
+        posterView.layer.borderColor = UIColor.white.cgColor
             
         titleLabel.text = movie["title"] as? String
         overviewLabel.text = movie["overview"] as? String
+        releaseDate.text = movie["release_date"] as? String
+        ratingAvg.text = (NSNumber(value: movie!["vote_average"] as! Double)).stringValue
+        
+        print(type(of: (NSNumber(value: movie!["vote_average"] as! Double)).stringValue))
+
         
         let baseUrl = "http://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
@@ -56,7 +69,6 @@ class MovieDetailsViewController: UIViewController {
         guard let backdropUrl = URL(string: "http://image.tmdb.org/t/p/w780\(backdropPath)") else { return }
         backdropImage.af_setImage(withURL: backdropUrl)
         
-        print(backdropUrl)
         
     }
     
